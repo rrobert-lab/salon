@@ -4,8 +4,9 @@
   text-decoration: none;
   color: black;
 }
-html, body {margin:0;padding:0;height:100%;width:100%;
- 
+body {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 
@@ -17,8 +18,9 @@ html, body {margin:0;padding:0;height:100%;width:100%;
 }
 .nav-wrapper{
   margin-left: 10%;
-   width: 90%;
+   width: 81%;
    background-color: black;
+  font-size: 300%;
 }
 
 
@@ -27,25 +29,26 @@ html, body {margin:0;padding:0;height:100%;width:100%;
       position: relative;
     left: 0%;
     top: 0%;
-    z-index: -1;
+    
     margin-left: 10%;
       display: inline-block;
-  clip-path: circle(120% at 50%  -50%);
+  clip-path: circle(100% at 50%  -40%);
  }
 .top-picture>.tpic{ opacity: .9;}
   
 .bottomheader.Aheader.tpic{
   position: absolute;
-  top: -20px;
+  top: -40px;
   left: 10px;
   margin-left: 2%;
+  
 }
 .bottomheader.Bheader{
 margin-left: 15%;
 }
 em {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 250%;
 }
 nav * {
   display: inline-block;
@@ -54,8 +57,8 @@ nav * {
   padding: 0 10px;
   color: white;
 }
-.left{
-  float: left;
+.leftas{
+  float: left;margin-right: 2300px;
   
 }
 .righta{
@@ -64,10 +67,10 @@ nav * {
 }
 
 h1 {
-  margin: 10% 50% 1% 0;
+  margin: 0% 50% 1% 0;
   font-weight: lighter;
   display: inline-block;
-  font-size: 60px;
+  font-size: 2000%;
   background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   color: transparent;
@@ -77,8 +80,8 @@ h1 {
   background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   color: transparent;
-  font-weight: 1000;
-  font-size: larger;
+  font-size: 1000%;
+
 }
 .fa-4x{
   display: inline-block;
@@ -97,31 +100,34 @@ h1 {
   margin-top: 2%;
 }
 .secheaderbtn {
-  margin-top: 5%;
+  
   background-color: black;
-  width: 35%;
-  padding: 13% 10%;
+  width: 20%;
+ 
+  padding: 10% 10%;
   position: relative;
-  height: 100%;
+  
   
 }
-.secheaderbtn *{color: white;}
+.secheaderbtn *{color: white;
+
+  }
 
 .secheaderbtn > div:first-child {
   position: absolute;
-  top: 18%;
+  top: 5%;
   left: 20px;
-  
+  font-size: 500%;
   color: white;
 }
 .secheaderbtn > div:nth-child(2) {
   position: absolute;
   top: 30%;
   left: 20px;
-  font-size: 12px;
+  font-size: 400%;
 }
 .percentage {
-  font-size: 30px;
+  font-size: 200%;
 }
 .Aheader > div > a {
   position: absolute;
@@ -132,11 +138,12 @@ h1 {
   background-color: white;
   color: black;
   padding: 5% 0%;
-  width: 75%;
+  width: 200%;
 }
 .Bheader > section {
   float: left;
   width: 30%;
+  font-size: 500%;
   margin-top: 5%;
   margin-right: 1%;
   
@@ -144,6 +151,7 @@ h1 {
 .paragraph{
   margin: 0 -20% 0 0;
   width: 50%;
+  font-size: 500%;
 }
 
 
@@ -179,10 +187,7 @@ h1 {
   float: right;
   margin-top: -10%;
 }
-h2 {
-  font-size: 30px;
-  font-weight: lighter;
-}
+
 .SecondSQ > section > p {
   margin: 0 40% 6% 0%;
 }
@@ -194,48 +199,54 @@ h2 {
 .Workers {
   clear: both;
   margin-top: 8px;
-  height: 390px;
-  width: 930px;
+  height: 50%;
+  width: 70%;
+  
   display: inline-block;
 }
 .Workers > section {
-  float: left;
-  width: 270px;
-  height: 300px;
-  margin-right: 10px;
+  float: right;
+  width: 30%;
+  height: 60%;
+  margin-left: 2%;
 
   border: 1px solid black;
 }
 .Workers > section div {
-  width: 210px;
+  width: 100%;
   border: 1px solid black;
 
   display: inline-block;
-  margin-inline-start: 30px;
-  margin-top: -5%;
   
-  padding: 17px 0;
+ 
+  
+  
   text-align: center;
   background-color: black;
   color: white;
+  font-size: 500%;
 }
 
 .Coupon {
-  height: 300px;
-  width: 850px;
+  height: 10%;
+  width: 80%;
   border: 1px solid gray;
   
   z-index: -1;
   position: relative;
 }
 .lastSection {
-  height: 800px;
-  width: 850px;
+  height: 10%;
+  width: 80%;
   border: 1px solid black;
+
 }
+
 .lastSection h2 {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 500%;
+  color: chocolate
 }
 .OL1
 {
@@ -261,22 +272,31 @@ h2 {
   
   }
 .girl1,
-.girl2,
 .girl3 {
-  height: 50%;
+  height: 40%;
+}
+.girl2{
+  height: 90%;
 }
 .girl4,
-.girl5,
+
 .girl6 {
   float: left;
-  height: 400px;
-  margin-top: -90px;
+  height: 60%;
+ 
 }
+.girl5{ float: left;
+  height: 100%;}
 .bookonline{
-  height: 2%;
+  top: -20%;
+  left: -20%;
+  position: relative;
+  height: 600%;
   width: 20%;
-  margin-top: 5%;
-  margin-left: 3%;
+  z-index:9;
+  
+  margin-left: 20%;
+  font-size: 400%;
   background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: button;
   color: transparent;
@@ -291,6 +311,12 @@ h2 {
 
   .bookonline:hover {
     transform: scale(1.25) perspective(1px)
+  }
+  .ColOffer{
+    font-size: 300%;
+    margin-top: -40%;
+    z-index: 1;
+    
   }
 
 
